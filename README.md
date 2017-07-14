@@ -1,1 +1,1 @@
-# Capstone
+This is the read me file for the Capstone project
