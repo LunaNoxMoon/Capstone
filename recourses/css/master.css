@@ -1,3 +1,55 @@
+/*general*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  /*background-color: #E1F4ED;*/
+  border: 1px solid black;
+}
+
+div{
+  display: block;
+}
+
+/* colors
+a{
+  color: #624cab;
+}
+
+h1,
+h2,
+h3, {
+  color: #c2d3cd;
+}
+
+p{
+  color: #88958D;
+}
+*/
+
+/*header*/
 header .banner span{
   text-transform: uppercase;
+}
+
+header #colmar{
+  font-weight: 700;
+}
+
+/*start*/
+
+
+/*second*/
+
+
+/*courses*/
+
+
+/*thesis*/
+
+
+/*thesis*/
+
+
+@media only screen and (max-width: 480px){
+
 }
