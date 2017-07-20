@@ -1,32 +1,49 @@
 /*general*/
 body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   /*background-color: #E1F4ED;*/
+}
+
+div
   border: 1px solid black;
 }
 
-div{
-  display: block;
+h1 {
+  color: #88958E;
 }
-
-/* colors
-a{
-  color: #624cab;
-}
-
-h1,
 h2,
 h3, {
-  color: #c2d3cd;
+  color: #88958D;
 }
 
 p{
-  color: #88958D;
+  color: #c2d3cd;
 }
-*/
 
+a{
+  color: #624cab;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
 /*header*/
+header{
+  height: 64px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #fafaff;
+  align-items: center;
+}
+
+header .banner{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
 header .banner span{
   text-transform: uppercase;
 }
@@ -35,8 +52,20 @@ header #colmar{
   font-weight: 700;
 }
 
-/*start*/
+header nav ul{
+  display: flex;
+}
 
+nav li{
+  padding-left: 16px;
+}
+
+
+/*start*/
+#main-picture img{
+  width: 60%;
+  height: auto;
+}
 
 /*second*/
 
