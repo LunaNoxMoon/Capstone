@@ -51,6 +51,11 @@ ul{
   height: auto;
 }
 
+.text{
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
 /*header*/
 header{
   position: fixed;
@@ -172,11 +177,6 @@ header .image{
   padding: 16px;
 }
 
-.text{
-  flex-direction: column;
-  padding-right: 1rem;
-}
-
 .guest{
   background-color: #595959;
 }
@@ -185,15 +185,117 @@ header .image{
 /*courses*/
 .courses{
   background-color: #595959;
+  display: block;
+  padding: 32px;
+}
+
+.courses h2{
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.block{
+  display: block;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.course-block{
+  width: 30%;
+  background-color: #fafaff;
+  flex-direction: column;
+  margin: 10px 16px;
+}
+
+.course-block img{
+  width: 100%;
+  height: auto;
+}
+
+.course-block h3{
+  padding: 16px 0 4px 16px;
+}
+
+.category{
+  text-transform: uppercase;
+  margin: 4px 0 4px 16px;
+}
+
+.info{
+  padding: 4px 10px 24px 16px;
 }
 
 /*thesis*/
+.thesis{
+  display: block;
+  padding: 32px 0;
+}
+
+.thesis h2{
+  text-align: center;
+  padding: 32px;
+}
+
+.flex-box{
+  display: flex;
+}
+
+.video{
+  padding: 32px 24px 0;
+  flex-basis: 60%;
+}
+
 video{
-  width: 50%;
+  width: 100%;
+  height: auto;
 }
 
-/*thesis*/
+.description{
+  display: block;
+  margin-bottom: 64px;
+}
 
+.playlist{
+  min-width: 423px;
+  flex-basis: 40%;
+  flex-direction: column;
+  display: block;
+}
+
+.list-item{
+  display: flex;
+  padding: 16px;
+}
+
+.list-item img{
+ width: 35%;
+ height: 35%;
+ margin-right: 16px;
+}
+
+.fisma{
+  background-color: #595959;
+}
+
+
+/*footer*/
+footer{
+  display: flex;
+  border-top: 1px solid #595959;
+  bottom: 40px;
+  padding: 16px 24px;
+  justify-content: space-between;
+}
+
+.legal a{
+  padding: 10px;
+}
 
 @media only screen and (max-width: 480px){
 
