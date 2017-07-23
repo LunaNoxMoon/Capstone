@@ -1,23 +1,38 @@
 /*general*/
-body{
+html{
   font-family: 'Open Sans', sans-serif;
-  /*background-color: #E1F4ED;*/
+  font-size: 16px;
+  background-color: #fafaff;
 }
 
-div
-  border: 1px solid black;
+body{
+  line-height: 1.1;
+  display: block;
 }
 
-h1 {
-  color: #88958E;
+div{
+  display: block;
 }
-h2,
-h3, {
+
+h1{
+  color: #c2d3cd;
+  font-size: 2.5rem;
+}
+
+h2{
   color: #88958D;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #88958D;
+  font-size: 1.3rem;
+  line-height: 1.3;
 }
 
 p{
   color: #c2d3cd;
+  font-size: 0.8rem;
 }
 
 a{
@@ -28,10 +43,18 @@ a{
 ul{
   list-style-type: none;
 }
+
+.content{
+  top: 3.55rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
 /*header*/
 header{
-  height: 64px;
   position: fixed;
+  height: 64px;
   width: 100%;
   z-index: 10;
   background-color: #fafaff;
@@ -40,11 +63,13 @@ header{
 header .banner{
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
+  align-items: center;
+  padding: 0.6rem 1.33rem;
 }
 
 header .banner span{
   text-transform: uppercase;
+  color: #624cab;
 }
 
 header #colmar{
@@ -69,22 +94,103 @@ header .image{
 }
 
 
-
-
 /*start*/
-#main-picture img{
-  width: 60%;
-  height: auto;
+.start{
+  background-color: #595959;
+  display: flex;
+  align-items: center;
 }
 
+.start img{
+  width: 60%;
+  padding: 32px 40px 32px 24px;
+}
+
+.side-info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 24px;
+}
+
+.side-info a{
+  color: #c2d3cd;
+  background-color: #624cab;
+  width: 100%;
+  padding: 8px 0;
+  text-align: center;
+}
+
+
 /*second*/
+.second{
+  display: flex;
+  align-items: center;
+}
+
+.man-reading{
+  flex-direction: column;
+  border-right: 1px solid #595959;
+}
+
+.man-reading img{
+  width: 90%;
+  padding: 32px 24px;
+  border-right: 1px solid #fafaff;
+}
+
+.practicing{
+  padding: 0 24px;
+}
+
+.practicing p{
+  padding-top: 24px;
+}
+
+#quote{
+  font-family: "Bellefair", cursive;
+  font-size: 1.2rem;
+  text-align: right;
+  padding-bottom: 24px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.article{
+  display: flex;
+  border-bottom: 1px solid #595959;
+  text-align: left;
+  align-items: center;
+}
+
+.article img{
+  width: 35%;
+  height: 35%;
+  padding: 16px;
+}
+
+.text{
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+.guest{
+  background-color: #595959;
+}
 
 
 /*courses*/
-
+.courses{
+  background-color: #595959;
+}
 
 /*thesis*/
-
+video{
+  width: 50%;
+}
 
 /*thesis*/
 
