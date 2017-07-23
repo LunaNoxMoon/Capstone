@@ -35,7 +35,6 @@ header{
   width: 100%;
   z-index: 10;
   background-color: #fafaff;
-  align-items: center;
 }
 
 header .banner{
@@ -59,6 +58,17 @@ header nav ul{
 nav li{
   padding-left: 16px;
 }
+
+header .logo{
+  display: flex;
+  align-items: center;
+}
+
+header .image{
+  padding-right: 5px;
+}
+
+
 
 
 /*start*/
