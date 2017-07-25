@@ -103,7 +103,7 @@ header img{
   display: none;
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 660px){
 .mobile{
   display: block;
 }
@@ -139,14 +139,19 @@ header img{
 }
 
 .side-info a{
-  color: #c2d3cd;
+  color: #fafaff;
   background-color: #624cab;
   width: 100%;
   padding: 8px 0;
   text-align: center;
 }
 
-@media only screen and (max-width: 430px){
+.side-info h1,
+.side-info p{
+  color: #fafaff;
+}
+
+@media only screen and (max-width: 660px){
 .start{
   display: block;
 }
@@ -159,10 +164,6 @@ header img{
 
 .side-info{
   padding: 32px 16px;
-}
-
-.side-info p{
-  margin-left: -32px;
 }
 }
 
@@ -224,7 +225,7 @@ header img{
   background-color: #595959;
 }
 
-@media only screen and (max-width:430px){
+@media only screen and (max-width:660px){
   .man-reading{
     display: none;
   }
@@ -309,7 +310,11 @@ header img{
   padding: 4px 10px 24px 16px;
 }
 
-@media only screen and (max-width:430px){
+.mobile-block{
+  display: none;
+}
+
+@media only screen and (max-width:550px){
 .courses{
   background-color: #fafaff;
 }
@@ -327,8 +332,8 @@ header img{
   padding: 16px;
   margin: 8px;
   background-color: #595959;
+  color: #fafaff;
 }
-
 }
 
 /*thesis*/
@@ -383,7 +388,7 @@ video{
   background-color: #595959;
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 660px){
   .thesis{
     border-top: 1px solid #595959;
   }
@@ -418,7 +423,7 @@ footer{
   padding: 10px;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 510px){
 footer{
   height: 48px;
   align-items: center;
