@@ -65,19 +65,24 @@ header{
   background-color: #fafaff;
 }
 
-header .banner{
+.desktop{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6rem 1.33rem;
-}
+  padding: 0.7rem 1.33rem;
+  }
 
-header .banner span{
+.desktop span{
   text-transform: uppercase;
   color: #624cab;
 }
 
-header #colmar{
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+#colmar{
   font-weight: 700;
 }
 
@@ -89,15 +94,29 @@ nav li{
   padding-left: 16px;
 }
 
-header .logo{
-  display: flex;
-  align-items: center;
-}
-
-header .image{
+header img{
   padding-right: 5px;
 }
 
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 430px){
+.mobile{
+  display: block;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.desktop{
+  display: none;
+}
+}
 
 /*start*/
 .start{
@@ -126,6 +145,23 @@ header .image{
   text-align: center;
 }
 
+@media only screen and (max-width: 430px){
+.start{
+  display: block;
+}
+
+.start img{
+  height: 180px;
+}
+
+.side-info{
+  padding: 32px 16px;
+}
+
+.side-info p{
+  padding: 32px 16px 32px 16px;
+}
+}
 
 /*second*/
 .second{
@@ -181,6 +217,11 @@ header .image{
   background-color: #595959;
 }
 
+@media only screen and (max-width:430px){
+  .man-reading{
+    display: none;
+  }
+}
 
 /*courses*/
 .courses{
